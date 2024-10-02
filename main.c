@@ -69,9 +69,9 @@ int main()
             scanf("%d",&choice3);
             if(choice3==1){
                     for(int i=0;i<cpt;i++){
-                    printf("le nom de contact : %s\n",p1[cpt].nom);
-                    printf("le numero de telephone : %s\n",p1[cpt].numero_de_telephone);
-                    printf("adresse e-mail : %s\n",p1[cpt].adresse_e_mail);
+                    printf("le nom de contact : %s\n",p1[i].nom);
+                    printf("le numero de telephone : %s\n",p1[i].numero_de_telephone);
+                    printf("adresse e-mail : %s\n",p1[i].adresse_e_mail);
                 }break;
                 }
         case 3 :
